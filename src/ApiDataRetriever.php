@@ -5,7 +5,6 @@ class ApiDataRetriever {
     private const API_ENDPOINTS = [
         "GetChapter" => "https://doodle-manga-scraper.p.mashape.com/{siteid}/manga/{mangaid}/{chapterid}",
         "Search" => "https://doodle-manga-scraper.p.mashape.com/{siteid}/search",
-        "GetAllManga" => "https://doodle-manga-scraper.p.mashape.com/{siteid}",
         "GetMangaDetails" => "https://doodle-manga-scraper.p.mashape.com/{siteid}/manga/{mangaid}/"
     ];
 
