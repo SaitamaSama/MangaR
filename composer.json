@@ -1,0 +1,11 @@
+{
+  "name": "Manga",
+  "require": {
+    "amphp/aerys": "^0.6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Manga\\": "src/"
+    }
+  }
+}
